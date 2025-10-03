@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -O2 -mavx -g -fopenmp
+CFLAGS = -O2 -mavx -g -fopenmp -Wno-unused-result
 SRC_DIR = .
 BUILD_DIR = build
 
