@@ -52,5 +52,5 @@ plt.title("Matrix multiplication timings (Log X)")
 plt.legend()
 plt.grid(True, which="both", ls="-", alpha=0.6) # Отображаем сетку для обеих сеток логарифмического масштаба
 
-plt.show()
 plt.savefig("result.png")
+plt.show()
